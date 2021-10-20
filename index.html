@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <header class="header" id="header">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2QWIXsHEuC1MxuiNYd59ApWmZcNARqfOh_A&usqp=CAU"
+          alt="Company logo"
+          id="header-img"
+        />
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a href="#trailer" id="nav-link" class="nav-link">Trailer</a>
+            </li>
+            <li><a href="#skins" id="nav-link" class="nav-link">Skins</a></li>
+            <li>
+              <a href="#newsletter" id="nav-link" class="nav-link">Subscribe</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="trailer">
+        <h2>Watch the newest League of Legends trailer featuring Yasuo!</h2>
+
+        <iframe
+          id="video"
+          width="1280"
+          height="720"
+          src="https://www.youtube.com/embed/D4L0OkSrsI8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="skins">
+        <h2>Best selling skins</h2>
+        <div class="skin-info">
+          <div class="splashart">
+            <img
+              src="https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagejpegbase649j4AAQSkZJRgABAQAAAQABAAD4QAqRX-f23a138f16bdcb419ed79e432dee08fd.jpg"
+              alt="The splash art for Truth Dragon Yasuo skin"
+              id="truth-dragon"
+            />
+          </div>
+          <div class="lore">
+            <h3>Truth Dragon Yasuo</h3>
+            <p>
+              Alone against an army, Yasuo chose to stand and fight. He blocked
+              a narrow pass between two mountains, allowing innocents to escape
+              the bloodshed.Wielding the truth of steel as a dance, he felled
+              countless foes-- but even he could not hold out forever. The
+              Dragon of Truth, moved by his swordsmanship, came down from its
+              peak to bless him.
+            </p>
+          </div>
+        </div>
+
+        <div class="skin-info">
+          <div class="splashart">
+            <img
+              src="https://pbs.twimg.com/media/EclSxYnUwAA0aCV.jpg"
+              alt="The splash art for Spirit Bloosom Yasuo skin"
+              id="spirit-bloosom"
+            />
+          </div>
+          <div class="lore">
+            <h3>Spirit Bloosom Yaso</h3>
+            <p>
+              Long ago, two brothers fought a bitter war across Ionia. Yone, the
+              older brother, was a warlord renowned for his adherence to honor
+              and duty. He fought to defend the country against those who would
+              break its rites and rituals - until he was forced to confront his
+              own brother for his crimes. Both were fated to fall in their final
+              duel… a lesson, perhaps, in pride and hubris.
+            </p>
+          </div>
+        </div>
+
+        <div class="skin-info">
+          <div class="splashart">
+            <img
+              src="https://i.pinimg.com/originals/62/ae/44/62ae44b44ad5d4fab951644c0ed19bd2.jpg"
+              alt="The splash art for Oddysey Yasuo skin"
+              id="oddysey"
+            />
+          </div>
+          <div class="lore">
+            <h3>Oddysey Yaso</h3>
+            <p>
+              Yasuo never wanted to be a space pirate… until he was framed for
+              his brother's murder, and had to flee his life of relative luxury.
+              Now on the run from a dozen different military and paramilitary
+              factions, he's putting together an eccentric crew to make a new
+              life among the stars.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter">
+        <div class="subscribe">
+          <h2>Subscribe to our newsletter to receive future skin updates!</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email here"
+              required
+            />
+            <input id="submit" type="submit" value="Subscribe" />
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
